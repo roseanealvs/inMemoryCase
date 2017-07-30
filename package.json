@@ -1,0 +1,26 @@
+{
+  "name": "inmemorycase",
+  "version": "1.0.0",
+  "description": "in memory test performance app",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://roseanealvs@github.com/roseanealvs/inMemoryCase.git"
+  },
+  "author": "Roseane Alves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roseanealvs/inMemoryCase/issues"
+  },
+  "homepage": "https://github.com/roseanealvs/inMemoryCase#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "redis": "^2.7.1"
+  }
+}
